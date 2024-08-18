@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'org.springframework.boot' version '3.1.11'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter:3.1.11'
+    implementation 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
+    compileOnly 'org.projectlombok:lombok:1.18.28'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
+    implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc:3.2.4'
+    implementation 'io.asyncer:r2dbc-mysql:0.9.2'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux:3.2.4'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.1.11'
+    testImplementation 'io.projectreactor:reactor-test:3.4.36'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+description = 'spring-test'
+java.sourceCompatibility = '17'
+java.targetCompatibility = '17'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+bootBuildImage {
+    builder = 'paketobuildpacks/builder-jammy-base:latest'
+    environment = [
+            'BP_JVM_VERSION': '17.*'
+    ]
+
+    test {
+        useJUnitPlatform()
+    }
+}
