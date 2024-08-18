@@ -84,6 +84,8 @@ public class UserService {
     }
 
     private void sendCertificationEmail(String email, String certificationUrl) {
+
+        // 네이버 메일로 변경
        MimeMessage message = mailSender.createMimeMessage();
        MimeMessageHelper helper = new MimeMessageHelper(message);
        try {
@@ -95,11 +97,13 @@ public class UserService {
            throw new RuntimeException(e);
        }
        mailSender.send(message);
-//         SimpleMailMessage message = new SimpleMailMessage();
-//         message.setTo(email);
-//         message.setSubject("Please certify your email address");
-//         message.setText("Please click the following link to certify your email address: " + certificationUrl);
-//         mailSender.send(message);
+
+       // 강의 원본 gmail
+       // SimpleMailMessage message = new SimpleMailMessage();
+       // message.setTo(email);
+       // message.setSubject("Please certify your email address");
+       // message.setText("Please click the following link to certify your email address: " + certificationUrl);
+       // mailSender.send(message);
     }
 
     private String generateCertificationUrl(UserEntity userEntity) {
