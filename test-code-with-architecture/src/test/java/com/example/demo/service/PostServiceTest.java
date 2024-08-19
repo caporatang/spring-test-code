@@ -78,5 +78,5 @@ public class PostServiceTest {
         assertThat(postEntity.getContent()).isEqualTo("hello world :)");
         assertThat(postEntity.getModifiedAt()).isGreaterThan(0);
     }
-    
+
 }
