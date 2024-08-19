@@ -12,6 +12,6 @@ package com.example.demo.user.service.port;
  * 8/20/24        taeil                   최초생성
  */
 public interface MailSender {
-    void send(String emial, String title, String content);
+    void send(String email, String title, String content);
 
 }
