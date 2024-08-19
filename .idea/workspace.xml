@@ -135,7 +135,7 @@
       <recent name="com.example.springtest.sliceTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HealthCheckTest.헬스_체크_응답이_200으로_내려온다">
+  <component name="RunManager" selected="JUnit.UserControllerTest">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="spring-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,16 +212,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.service.*" />
+          <option name="PATTERN" value="com.example.demo.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.service.UserServiceTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controller.UserControllerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <envs>
@@ -232,17 +232,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.userCreateDto_를_이용하여_유저를_수정할_수_있다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.사용자는_특정_유저의_정보를_전달_받을_수_있다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.service.*" />
+          <option name="PATTERN" value="com.example.demo.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="userCreateDto_를_이용하여_유저를_수정할_수_있다" />
+      <option name="PACKAGE_NAME" value="com.example.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="사용자는_특정_유저의_정보를_전달_받을_수_있다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,11 +389,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserControllerTest" />
+      <item itemvalue="JUnit.UserControllerTest.사용자는_특정_유저의_정보를_전달_받을_수_있다" />
       <item itemvalue="JUnit.HealthCheckTest.헬스_체크_응답이_200으로_내려온다" />
       <item itemvalue="JUnit.PostServiceTest.postCreateDto_를_이용하여_게시물을_생성할_수_있다" />
       <item itemvalue="JUnit.PostServiceTest" />
-      <item itemvalue="JUnit.UserServiceTest.userCreateDto_를_이용하여_유저를_수정할_수_있다" />
-      <item itemvalue="JUnit.UserServiceTest" />
       <item itemvalue="Spring Boot.SpringTestApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.SpringTestApplication" />
@@ -401,11 +401,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.사용자는_특정_유저의_정보를_전달_받을_수_있다" />
         <item itemvalue="JUnit.HealthCheckTest.헬스_체크_응답이_200으로_내려온다" />
         <item itemvalue="JUnit.PostServiceTest" />
         <item itemvalue="JUnit.PostServiceTest.postCreateDto_를_이용하여_게시물을_생성할_수_있다" />
-        <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserServiceTest.userCreateDto_를_이용하여_유저를_수정할_수_있다" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +426,7 @@
       <workItem from="1723904726646" duration="3501000" />
       <workItem from="1723908238379" duration="5176000" />
       <workItem from="1723971589272" duration="3709000" />
-      <workItem from="1723975365746" duration="13774000" />
+      <workItem from="1723975365746" duration="15588000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
