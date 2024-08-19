@@ -136,7 +136,7 @@
       <recent name="com.example.springtest.sliceTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest">
+  <component name="RunManager" selected="JUnit.All in demo">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="spring-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,6 +156,20 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
+    </configuration>
+    <configuration name="All in demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <envs>
+        <env name="MAIL_USERNAME" value="caporatang@naver.com" />
+        <env name="MAIL_APPLICATION_PASSWORD" value="JF8X4NLSLZBV" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PostControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
@@ -233,22 +247,6 @@
         <env name="MAIL_USERNAME" value="caporatang@naver.com" />
         <env name="MAIL_APPLICATION_PASSWORD" value="JF8X4NLSLZBV" />
       </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserCreateControllerTest.사용자는_내_정보를_수정할_수_있다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controller.UserCreateControllerTest" />
-      <option name="METHOD_NAME" value="사용자는_내_정보를_수정할_수_있다" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -394,9 +392,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in demo" />
       <item itemvalue="JUnit.PostControllerTest" />
       <item itemvalue="JUnit.PostCreateControllerTest" />
-      <item itemvalue="JUnit.UserCreateControllerTest.사용자는_내_정보를_수정할_수_있다" />
       <item itemvalue="JUnit.UserCreateControllerTest" />
       <item itemvalue="JUnit.UserControllerTest" />
       <item itemvalue="Spring Boot.SpringTestApplication (2)" />
@@ -406,11 +404,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in demo" />
         <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="JUnit.PostControllerTest" />
         <item itemvalue="JUnit.PostCreateControllerTest" />
         <item itemvalue="JUnit.UserCreateControllerTest" />
-        <item itemvalue="JUnit.UserCreateControllerTest.사용자는_내_정보를_수정할_수_있다" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +429,7 @@
       <workItem from="1723904726646" duration="3501000" />
       <workItem from="1723908238379" duration="5176000" />
       <workItem from="1723971589272" duration="3709000" />
-      <workItem from="1723975365746" duration="18312000" />
+      <workItem from="1723975365746" duration="19682000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -669,7 +667,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test-code-with-architecture/src/main/java/com/example/demo/service/UserService.java</url>
+          <url>file://$PROJECT_DIR$/test-code-with-architecture/src/main/java/com/example/demo/user/service/UserService.java</url>
           <line>75</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
