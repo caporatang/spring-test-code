@@ -5,8 +5,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import com.example.demo.post.domain.PostCreate;
 import com.example.demo.post.domain.PostUpdate;
-import com.example.demo.post.infrastructure.PostEntity;
-import com.example.demo.post.service.PostService;
+import com.example.demo.post.domain.Post;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -40,7 +39,7 @@ public class PostServiceTest {
     void getById는_존재하는_게시물을_내려준다() {
         // given
         // when
-        PostEntity result = postService.getById(3);
+        Post result = postService.getById(3);
 
         // then
         assertThat(result.getContent()).isEqualTo("helloworld");
@@ -56,7 +55,7 @@ public class PostServiceTest {
                 .build();
 
         // when
-        PostEntity result = postService.create(postCreateDto);
+        Post result = postService.create(postCreateDto);
 
         // then
         assertThat(result.getId()).isNotNull();
@@ -75,7 +74,7 @@ public class PostServiceTest {
         postService.update(3, postUpdateDto);
 
         // then
-        PostEntity postEntity= postService.getById(3);
+        Post postEntity= postService.getById(3);
         assertThat(postEntity.getContent()).isEqualTo("hello world :)");
         assertThat(postEntity.getModifiedAt()).isGreaterThan(0);
     }
