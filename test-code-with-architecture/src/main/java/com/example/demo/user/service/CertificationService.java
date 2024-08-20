@@ -1,6 +1,5 @@
 package com.example.demo.user.service;
 
-import com.example.demo.user.controller.port.CertificationService;
 import com.example.demo.user.service.port.MailSender;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -18,7 +17,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @RequiredArgsConstructor
-public class CertificationServiceImpl implements CertificationService {
+public class CertificationService implements com.example.demo.user.controller.port.CertificationService {
 
     private final MailSender mailSender;
 

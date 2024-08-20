@@ -45,7 +45,7 @@ public class UserServiceTest {
                 .uuidHolder(new TestUuidHolder("aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"))
                 .clockHolder(new TestClockHolder(1678530673958L))
                 .userRepository(fakeUserRepository)
-                .certificationService(new CertificationServiceImpl(fakeMailSender))
+                .certificationService(new CertificationService(fakeMailSender))
                 .build();
 
         fakeUserRepository.save(User.builder()

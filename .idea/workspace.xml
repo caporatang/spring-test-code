@@ -93,7 +93,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "azul-17",
-    "last_opened_file_path": "/Users/taeil/study/spring-test/src/main/java/com/example/springtest/unitTest/img",
+    "last_opened_file_path": "/Users/taeil/study/spring-test-code/test-code-with-architecture/src/test/java/com/example/demo/post/controller",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,6 +108,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-code-with-architecture/src/test/java/com/example/demo/post/controller" />
+      <recent name="$PROJECT_DIR$/test-code-with-architecture/src/test/java/com/example/demo/user/controller" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -123,13 +125,14 @@
       <recent name="com.example.demo.common.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.user.controller.port" />
+      <recent name="com.example.demo.user.controller" />
       <recent name="com.example.demo.post.service" />
       <recent name="com.example.demo.user.service" />
       <recent name="com.example.demo.controller" />
-      <recent name="com.example.springtest.sliceTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in demo">
+  <component name="RunManager" selected="JUnit.com.example.demo.user.* and 1 more">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="spring-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,75 +156,63 @@
     <configuration name="All in demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <envs>
-        <env name="MAIL_USERNAME" value="caporatang@naver.com" />
-        <env name="MAIL_APPLICATION_PASSWORD" value="JF8X4NLSLZBV" />
-      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.post.service.*" />
+          <option name="PATTERN" value="com.example.demo.post.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.post.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.post.service.PostServiceTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo.post.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.post.controller.PostControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostServiceTest.postUpdateDto_를_이용하여_게시물을_수정할_수_있다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostCreateControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.post.service.*" />
+          <option name="PATTERN" value="com.example.demo.post.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.post.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.post.service.PostServiceTest" />
-      <option name="METHOD_NAME" value="postUpdateDto_를_이용하여_게시물을_수정할_수_있다" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.user.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.user.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.user.service.UserServiceTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo.post.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.post.controller.PostCreateControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.잘못된_인증_코드로_계정을_활성화_하려하면_에러를_던진다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserCreateControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.user.domain.User" />
+          <option name="PATTERN" value="com.example.demo.user.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.user.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.user.domain.UserTest" />
-      <option name="METHOD_NAME" value="잘못된_인증_코드로_계정을_활성화_하려하면_에러를_던진다" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.demo.user.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.user.controller.UserCreateControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.demo.user.* and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="com.example.demo.user.*" />
+        <pattern testClass="com.example.demo.post.*" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -368,10 +359,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PostServiceTest" />
-      <item itemvalue="JUnit.PostServiceTest.postUpdateDto_를_이용하여_게시물을_수정할_수_있다" />
-      <item itemvalue="JUnit.UserServiceTest" />
-      <item itemvalue="JUnit.UserTest.잘못된_인증_코드로_계정을_활성화_하려하면_에러를_던진다" />
+      <item itemvalue="JUnit.PostControllerTest" />
+      <item itemvalue="JUnit.PostCreateControllerTest" />
+      <item itemvalue="JUnit.UserCreateControllerTest" />
+      <item itemvalue="JUnit.com.example.demo.user.* and 1 more" />
       <item itemvalue="JUnit.All in demo" />
       <item itemvalue="Spring Boot.SpringTestApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication" />
@@ -380,11 +371,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.example.demo.user.* and 1 more" />
         <item itemvalue="JUnit.All in demo" />
-        <item itemvalue="JUnit.PostServiceTest" />
-        <item itemvalue="JUnit.PostServiceTest.postUpdateDto_를_이용하여_게시물을_수정할_수_있다" />
-        <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserTest.잘못된_인증_코드로_계정을_활성화_하려하면_에러를_던진다" />
+        <item itemvalue="JUnit.PostControllerTest" />
+        <item itemvalue="JUnit.PostCreateControllerTest" />
+        <item itemvalue="JUnit.UserCreateControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +397,7 @@
       <workItem from="1723908238379" duration="5176000" />
       <workItem from="1723971589272" duration="3709000" />
       <workItem from="1723975365746" duration="37885000" />
-      <workItem from="1724142125718" duration="649000" />
+      <workItem from="1724142125718" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
