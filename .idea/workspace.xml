@@ -125,11 +125,11 @@
       <recent name="com.example.demo.common.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.user.request" />
       <recent name="com.example.demo.user.controller.port" />
       <recent name="com.example.demo.user.controller" />
       <recent name="com.example.demo.post.service" />
       <recent name="com.example.demo.user.service" />
-      <recent name="com.example.demo.controller" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in demo">
@@ -408,7 +408,7 @@
       <workItem from="1723908238379" duration="5176000" />
       <workItem from="1723971589272" duration="3709000" />
       <workItem from="1723975365746" duration="37885000" />
-      <workItem from="1724142125718" duration="6149000" />
+      <workItem from="1724142125718" duration="6468000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
