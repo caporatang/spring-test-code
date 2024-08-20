@@ -132,7 +132,7 @@
       <recent name="com.example.demo.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.example.demo.user.* and 1 more">
+  <component name="RunManager" selected="JUnit.All in demo">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="spring-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +156,13 @@
     <configuration name="All in demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <envs>
+        <env name="MAIL_USERNAME" value="caporatang@naver.com" />
+        <env name="MAIL_APPLICATION_PASSWORD" value="JF8X4NLSLZBV" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,6 +177,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.post.controller" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.post.controller.PostControllerTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,6 +193,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.post.controller" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.post.controller.PostCreateControllerTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,6 +209,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.user.controller" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.user.controller.UserCreateControllerTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,6 +217,8 @@
     </configuration>
     <configuration name="com.example.demo.user.* and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="pattern" />
       <patterns>
         <pattern testClass="com.example.demo.user.*" />
@@ -371,8 +382,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.example.demo.user.* and 1 more" />
         <item itemvalue="JUnit.All in demo" />
+        <item itemvalue="JUnit.com.example.demo.user.* and 1 more" />
         <item itemvalue="JUnit.PostControllerTest" />
         <item itemvalue="JUnit.PostCreateControllerTest" />
         <item itemvalue="JUnit.UserCreateControllerTest" />
@@ -397,7 +408,7 @@
       <workItem from="1723908238379" duration="5176000" />
       <workItem from="1723971589272" duration="3709000" />
       <workItem from="1723975365746" duration="37885000" />
-      <workItem from="1724142125718" duration="5221000" />
+      <workItem from="1724142125718" duration="6149000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
