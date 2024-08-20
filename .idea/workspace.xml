@@ -137,11 +137,12 @@
       <recent name="com.example.demo.common.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.user.service" />
       <recent name="com.example.demo.controller" />
       <recent name="com.example.springtest.sliceTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.잘못된_인증_코드로_계정을_활성화_하려하면_에러를_던진다">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="spring-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,34 +163,31 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UserTest.User는_UserCreate_객체로_생성할_수_있다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.user.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.user.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.user.domain.UserTest" />
-      <option name="METHOD_NAME" value="User는_UserCreate_객체로_생성할_수_있다" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <envs>
+        <env name="MAIL_USERNAME" value="caporatang@naver.com" />
+        <env name="MAIL_APPLICATION_PASSWORD" value="JF8X4NLSLZBV" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.User는_UserUpdate객체로_데이터를_업데이트_할_수_있다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.user.domain.*" />
+          <option name="PATTERN" value="com.example.demo.user.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.user.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.user.domain.UserTest" />
-      <option name="METHOD_NAME" value="User는_UserUpdate객체로_데이터를_업데이트_할_수_있다" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.demo.user.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.user.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,7 +196,7 @@
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.user.domain.*" />
+          <option name="PATTERN" value="com.example.demo.user.domain.User" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,7 +212,7 @@
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.user.domain.*" />
+          <option name="PATTERN" value="com.example.demo.user.domain.User" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,7 +228,7 @@
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.user.domain.*" />
+          <option name="PATTERN" value="com.example.demo.user.domain.User" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,7 +314,8 @@
       </method>
     </configuration>
     <configuration name="SpringTestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-test.main" />
+      <option name="ACTIVE_PROFILES" />
+      <module name="com.example.spring-test.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -383,11 +382,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserTest.User는_UserCreate_객체로_생성할_수_있다" />
-      <item itemvalue="JUnit.UserTest.User는_UserUpdate객체로_데이터를_업데이트_할_수_있다" />
+      <item itemvalue="JUnit.UserServiceTest" />
       <item itemvalue="JUnit.UserTest.User는_로그인을_할_수_있고_로그인시_마지막_로그인_시간이_변경된다" />
       <item itemvalue="JUnit.UserTest.User는_인증_코드로_계정을_활성화_할_수_있다" />
       <item itemvalue="JUnit.UserTest.잘못된_인증_코드로_계정을_활성화_하려하면_에러를_던진다" />
+      <item itemvalue="JUnit.All in demo" />
       <item itemvalue="Spring Boot.SpringTestApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.SpringTestApplication" />
@@ -395,11 +394,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.All in demo" />
         <item itemvalue="JUnit.UserTest.잘못된_인증_코드로_계정을_활성화_하려하면_에러를_던진다" />
         <item itemvalue="JUnit.UserTest.User는_인증_코드로_계정을_활성화_할_수_있다" />
         <item itemvalue="JUnit.UserTest.User는_로그인을_할_수_있고_로그인시_마지막_로그인_시간이_변경된다" />
-        <item itemvalue="JUnit.UserTest.User는_UserUpdate객체로_데이터를_업데이트_할_수_있다" />
-        <item itemvalue="JUnit.UserTest.User는_UserCreate_객체로_생성할_수_있다" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +419,7 @@
       <workItem from="1723904726646" duration="3501000" />
       <workItem from="1723908238379" duration="5176000" />
       <workItem from="1723971589272" duration="3709000" />
-      <workItem from="1723975365746" duration="33644000" />
+      <workItem from="1723975365746" duration="36064000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -664,7 +663,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-code-with-architecture/src/main/java/com/example/demo/user/service/UserService.java</url>
-          <line>49</line>
+          <line>51</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
