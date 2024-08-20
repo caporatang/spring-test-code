@@ -4,14 +4,13 @@ import com.example.demo.common.domain.exception.CertificationCodeNotMatchedExcep
 import com.example.demo.common.domain.exception.ResourceNotFoundException;
 import com.example.demo.common.service.port.ClockHolder;
 import com.example.demo.common.service.port.UuidHolder;
+import com.example.demo.user.controller.port.CertificationService;
+import com.example.demo.user.controller.port.UserService;
 import com.example.demo.user.domain.User;
 import com.example.demo.user.domain.UserStatus;
 import com.example.demo.user.domain.UserCreate;
 import com.example.demo.user.domain.UserUpdate;
 
-
-import java.time.Clock;
-import java.util.UUID;
 
 import com.example.demo.user.service.port.UserRepository;
 import lombok.Builder;
@@ -22,7 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Builder
 @RequiredArgsConstructor
-public class UserService {
+public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
     private final CertificationService certificationService;
@@ -48,7 +47,7 @@ public class UserService {
     }
 
     @Transactional
-    public com.example.demo.user.domain.User update(long id, UserUpdate userUpdate) {
+    public User update(long id, UserUpdate userUpdate) {
         User user = getById(id);
         user = user.update(userUpdate);
         user = userRepository.save(user);

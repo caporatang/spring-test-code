@@ -1,9 +1,8 @@
 package com.example.demo.user.service;
 
+import com.example.demo.user.controller.port.CertificationService;
 import com.example.demo.user.service.port.MailSender;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 /**
@@ -19,7 +18,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @RequiredArgsConstructor
-public class CertificationService {
+public class CertificationServiceImpl implements CertificationService {
 
     private final MailSender mailSender;
 

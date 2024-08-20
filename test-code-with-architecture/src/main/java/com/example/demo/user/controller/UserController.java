@@ -1,10 +1,11 @@
 package com.example.demo.user.controller;
 
+import com.example.demo.user.controller.port.UserService;
 import com.example.demo.user.domain.MyProfileResponse;
 import com.example.demo.user.controller.response.UserResponse;
 import com.example.demo.user.domain.User;
 import com.example.demo.user.domain.UserUpdate;
-import com.example.demo.user.service.UserService;
+import com.example.demo.user.service.UserServiceImpl;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.tags.Tag;

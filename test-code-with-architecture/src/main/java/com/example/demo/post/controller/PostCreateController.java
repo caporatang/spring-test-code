@@ -1,8 +1,9 @@
 package com.example.demo.post.controller;
 
+import com.example.demo.post.controller.port.PostService;
 import com.example.demo.post.domain.PostCreate;
 import com.example.demo.post.controller.response.PostResponse;
-import com.example.demo.post.service.PostService;
+import com.example.demo.post.service.PostServiceImpl;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -19,7 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class PostCreateController {
 
     private final PostService postService;
-    private final PostController postController;
 
     @PostMapping
     public ResponseEntity<PostResponse> createPost(@RequestBody PostCreate postCreateDto) {

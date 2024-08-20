@@ -1,7 +1,6 @@
 package com.example.demo.user.service;
 
 import com.example.demo.mock.FakeMailSender;
-import com.example.demo.user.service.port.MailSender;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -23,7 +22,7 @@ public class CertificationServiceTest {
     public void 이메일과_컨텐츠가_제대로_만들어져서_보내지는지_테스트한다() {
         // given
         FakeMailSender fakeMailSender = new FakeMailSender();
-        CertificationService certificationService = new CertificationService(fakeMailSender);
+        CertificationServiceImpl certificationService = new CertificationServiceImpl(fakeMailSender);
 
         // when
         certificationService.send("caporatang@naver.com", 1, "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa");

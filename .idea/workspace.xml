@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Add : Section1 간단한 정리 마크다운 파일 추가">
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-code_practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-code_practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +58,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test-code-with-architecture" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar!/org/junit/jupiter/api/condition/DisabledIfSystemProperties.class" root0="SKIP_INSPECTION" />
@@ -117,7 +103,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.24788949",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "eb14f9286ddba8818afab3e28c8f46d6"
+    "spring.configuration.checksum": "48992717a29c6a5861fafc71c7920e48"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -419,7 +405,8 @@
       <workItem from="1723904726646" duration="3501000" />
       <workItem from="1723908238379" duration="5176000" />
       <workItem from="1723971589272" duration="3709000" />
-      <workItem from="1723975365746" duration="37267000" />
+      <workItem from="1723975365746" duration="37885000" />
+      <workItem from="1724142125718" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -656,16 +643,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test-code-with-architecture/src/main/java/com/example/demo/user/service/UserService.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test-code-with-architecture/src/main/java/com/example/demo/user/service/UserService.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-code-with-architecture/src/main/java/com/example/demo/user/domain/User.java</url>
           <line>57</line>
