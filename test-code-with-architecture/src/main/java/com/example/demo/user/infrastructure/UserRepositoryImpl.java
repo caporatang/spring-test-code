@@ -47,4 +47,8 @@ public class UserRepositoryImpl implements UserRepository {
         return userJpaRepository.save(UserEntity.from(user)).toModel();
     }
 
+    @Override
+    public User getById(long id) {
+        return findById(id).orElseThrow(() -> new ResourceNotFoundException("Users", id));
+    }
 }
